@@ -1,0 +1,24 @@
+{
+  "$comment": "Declares the installable skills generated from the canonical law source. Edit the source files (CONSTITUTION.md, laws/, protocol/, AMENDMENTS.md), then run `npm run build` to regenerate skills/.",
+  "skills": [
+    {
+      "name": "agent-laws",
+      "template": "build/templates/agent-laws.SKILL.md",
+      "bundle": [
+        { "src": "CONSTITUTION.md", "dest": "CONSTITUTION.md" },
+        { "src": "AMENDMENTS.md", "dest": "AMENDMENTS.md" },
+        { "src": "protocol/reconciliation.md", "dest": "reconciliation.md" },
+        { "src": "protocol/petition.md", "dest": "petition.md" },
+        { "src": "laws/README.md", "dest": "conventions.md" }
+      ]
+    },
+    {
+      "name": "agent-laws-maintenance",
+      "template": "build/templates/agent-laws-maintenance.SKILL.md",
+      "bundle": [
+        { "src": "laws/00-maintainer-conduct.md", "dest": "conduct.md" },
+        { "src": "laws/10-code-quality.md", "dest": "code-quality.md" }
+      ]
+    }
+  ]
+}
