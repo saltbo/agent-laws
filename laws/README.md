@@ -4,6 +4,10 @@ This directory holds the **Codes** — bodies of law that derive their authority
 
 This document is the authoring specification: it defines how a provision is written, identified, and cited. It binds the Legislature when writing law and Agents when reading it.
 
+## Law and its skill
+
+A Code sets the **standard** and the **conformance bar** — it stays lean. The detailed *how to comply* — patterns, decisions, worked examples — belongs in an implementing **skill** under [`../skills/`](../skills/), which the Code links to from its header. The law judges; the skill shows the way. The skill is itself held to the law: a reviewer checks the skill against the Code, and a skill that contradicts the law is fixed. *(Example: the [API Design Law](30-api-design.md) links to the [`api-design`](../skills/api-design/SKILL.md) skill.)*
+
 ---
 
 ## Codex index
@@ -17,7 +21,7 @@ Codes are organized by domain. Today every in-force Code belongs to the **softwa
 | Maintainer Conduct | `MC` | [`00-maintainer-conduct.md`](00-maintainer-conduct.md) | Active |
 | Code Quality | `CQ` | [`10-code-quality.md`](10-code-quality.md) | Active |
 | Architecture | `AR` | `20-architecture.md` | Planned |
-| API Design | `API` | `30-api-design.md` | Planned |
+| API Design | `API` | [`30-api-design.md`](30-api-design.md) | Active |
 | Testing | `TS` | `40-testing.md` | Planned |
 | Security | `SEC` | `50-security.md` | Planned |
 | Dependencies | `DEP` | `60-dependencies.md` | Planned |
@@ -68,6 +72,8 @@ Field order is fixed so the line is machine-parseable.
 | **Conformance** | yes | How an Agent determines compliance. Prefer checkable criteria. |
 | **Remediation** | yes | How to bring a non-conforming charge into compliance. |
 | **History** | yes | One line per version: `v<semver> (<date>): <change> by Amendment <id>`. |
+
+A Code's header SHOULD link to its implementing skill (see [Law and its skill](#law-and-its-skill)). Detailed patterns and worked examples go in that skill, not in the provision.
 
 ---
 

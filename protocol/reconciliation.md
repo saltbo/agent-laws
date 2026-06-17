@@ -121,7 +121,7 @@ A provision is a heading followed by a one-line metadata blockquote:
 > **MUST** · severity: normal · status: active · effective: 2026-06-16 · compliance-by: — · v1.0.0
 ```
 
-To consume it deterministically: take the `id` and title from the heading (`### <ID> — <title>`), then read the blockquote fields in fixed order — normative keyword, `severity`, `status`, `effective`, `compliance-by`, version (`v<semver>`). The body fields (**Rule**, **Rationale**, **Applicability**, **Conformance**, **Remediation**, **History**) follow as bold-led paragraphs. The authoring contract for this format is [`../laws/README.md`](../laws/README.md).
+To consume it deterministically: take the `id` and title from the heading (`### <ID> — <title>`), then read the blockquote fields in fixed order — normative keyword, `severity`, `status`, `effective`, `compliance-by`, version (`v<semver>`). The body fields (**Rule**, **Rationale**, **Applicability**, **Conformance**, **Remediation**, **History**) follow as bold-led paragraphs. A Code's header may also link to an implementing skill that carries the detailed how-to. The authoring contract for this format is [`../laws/README.md`](../laws/README.md).
 
 ---
 
