@@ -36,7 +36,7 @@ The law is **dated**: amend a rule, set an effective date, and every agent — o
 
 Each **provision** carries a stable ID (e.g. `API-001`), a normative level (MUST/SHOULD/MAY), a severity, an effective date, explicit **conformance** criteria, and a **remediation** recipe — so "is this compliant?" has a checkable answer.
 
-Codes in force today (software-maintenance domain): [`maintainer-conduct`](laws/00-maintainer-conduct.md), [`code-quality`](laws/10-code-quality.md), [`api-design`](laws/30-api-design.md).
+Codes in force today (software-maintenance domain): [`maintainer-conduct`](laws/00-maintainer-conduct.md), [`code-quality`](laws/10-code-quality.md), [`architecture`](laws/20-architecture.md), [`api-design`](laws/30-api-design.md).
 
 ---
 
@@ -44,7 +44,7 @@ Codes in force today (software-maintenance domain): [`maintainer-conduct`](laws/
 
 The concrete how-to, for worker agents. Each skill is `skills/<name>/SKILL.md`; each is **held to the law** and names the law it serves. See [`skills/README.md`](skills/README.md).
 
-Active: [`api-design`](skills/api-design/SKILL.md) — how to design clear, evolvable APIs (pairs with the API Design Law).
+Active: [`api-design`](skills/api-design/SKILL.md) — how to design clear, evolvable APIs (pairs with the API Design Law); [`hono-cf-clean-arch`](skills/hono-cf-clean-arch/SKILL.md) — clean architecture for Hono + Cloudflare Workers + React (pairs with the Architecture Law).
 
 A law and its skill are a matched pair: the [API Design **Law**](laws/30-api-design.md) says *APIs MUST be versioned and conformance is a passing schema-diff*; the [API Design **skill**](skills/api-design/SKILL.md) says *here is how to choose a versioning strategy and wire that check up*.
 

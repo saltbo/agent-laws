@@ -38,8 +38,9 @@ npx skills add saltbo/agent-laws -g                    # all skills, globally
 | Skill | Serves | Status |
 |---|---|---|
 | [`api-design`](api-design/SKILL.md) | API Design Law (`API-*`) | Active |
+| [`hono-cf-clean-arch`](hono-cf-clean-arch/SKILL.md) | Architecture Law (`AR-*`) — Hono + Cloudflare Workers + React | Active |
+| `clean-architecture` | Architecture Law (`AR-*`) — stack-agnostic | Planned |
 | `error-handling` | Code Quality Law (`CQ-004`) + future Error Handling Law | Planned |
-| `architecture` | future Architecture Law (`AR-*`) | Planned |
 | `testing` | future Testing Law (`TS-*`) | Planned |
 
 ## Authoring a skill
