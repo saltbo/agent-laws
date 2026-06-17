@@ -20,7 +20,7 @@ Codes are organized by domain. Today every in-force Code belongs to the **softwa
 |---|---|---|---|
 | Maintainer Conduct | `MC` | [`00-maintainer-conduct.md`](00-maintainer-conduct.md) | Active |
 | Code Quality | `CQ` | [`10-code-quality.md`](10-code-quality.md) | Active |
-| Architecture | `AR` | `20-architecture.md` | Planned |
+| Architecture | `AR` | [`20-architecture.md`](20-architecture.md) | Active |
 | API Design | `API` | [`30-api-design.md`](30-api-design.md) | Active |
 | Testing | `TS` | `40-testing.md` | Planned |
 | Security | `SEC` | `50-security.md` | Planned |

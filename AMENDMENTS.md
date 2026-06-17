@@ -43,3 +43,16 @@ Establishes the legal system. Adopts the Constitution as the supreme, **domain-n
 - **Legislator:** saltbo
 
 Enacts the first technical Code. The law stays **lean** — rule, scope, and a checkable **conformance** bar — and points to its implementing [`api-design`](skills/api-design/SKILL.md) skill, where the detailed method and worked examples live (statute and implementing guidance, kept separate). New API work is bound from the Effective Date; existing APIs must reach conformance by the Compliance Deadline, in ordinary reconciliation priority — severity first.
+
+---
+
+## 2026-003 — Enact the Architecture Law
+
+- **Enacted:** 2026-06-17
+- **Effective:** 2026-06-17
+- **Compliance deadline:** — (existing projects remediated by ordinary priority; restructuring is high-effort and not deadline-forced)
+- **Affects:** Architecture Law `AR-001`–`AR-008` (new, software-maintenance domain); imports the [`hono-cf-clean-arch`](skills/hono-cf-clean-arch/SKILL.md) skill as an implementing guide
+- **Constitutional review:** Passed. Governs structure (architecture), not product behavior — an architectural change is a refactor (Art. I §3); consistent with the Foundational Principles; each rule paired with a checkable conformance bar (Art. IX §1, Art. X §2(f)); abridges no right (Art. VIII). Reviewed independently of drafting (Art. X §3).
+- **Legislator:** saltbo
+
+Codifies clean architecture as universal law: the **Dependency Rule** (`AR-001`), framework independence (`AR-002`), ports at boundaries (`AR-003`), no detail leakage (`AR-004`), isolation-testability (`AR-005`), a single composition root (`AR-006`), automated boundary enforcement (`AR-007`), and proportion over ceremony (`AR-008`). The law is lean and stack-agnostic; *how* to apply it lives in implementing skills — the first, [`hono-cf-clean-arch`](skills/hono-cf-clean-arch/SKILL.md), applies it to Hono + Cloudflare Workers + React and ships a `dependency-cruiser` config that enforces `AR-007` in CI. New work is bound from the Effective Date; existing projects are remediated by ordinary reconciliation priority.
